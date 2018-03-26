@@ -5,3 +5,4 @@ function destructivelyRemoveLastKitten(Ralph){kittens.pop(Ralph);return kittens}
 function destructivelyRemoveFirstKitten(Bob){kittens.shift(Bob);return kittens}
 function appendKitten(Broom){return[...kittens,Broom]}
 function prependKitten(Arnold){return[Arnold,...kittens]}
+function removeLastKitten()
